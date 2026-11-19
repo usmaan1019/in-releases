@@ -1,0 +1,32 @@
+{
+  "name": "InkNote Releases",
+  "identifier": "com.usmaanali.inknote.source",
+  "sourceURL": "https://raw.githubusercontent.com/usmaan1019/in-releases/main/apps.json",
+  "apps": [
+    {
+      "name": "InkNote",
+      "bundleIdentifier": "com.usmaanali.inknote",
+      "developerName": "Usmaan Ali",
+      "subtitle": "Tactile iPadOS Note-Taking & Lecture Studio",
+      "localizedDescription": "Handwriting & PDF annotation studio for iPad with scribble-to-erase, circle-to-lasso, draw-and-hold shape snapping, multi-tab workspace, infinite canvas, and hybrid on-device lecture transcription.",
+      "tintColor": "#5C402B",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-11-19",
+          "size": 2301614,
+          "downloadURL": "https://github.com/usmaan1019/in-releases/releases/download/v1.0/InkNote.ipa",
+          "minOSVersion": "18.0",
+          "localizedDescription": "Initial release with PencilKit ink, scribble-to-erase, circle-to-lasso, draw-and-hold shapes, multi-tabs, PDF import/export, and hybrid Apple Speech + WhisperKit transcription."
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "InkNote uses the microphone to record audio synced with your handwritten notes.",
+          "NSSpeechRecognitionUsageDescription": "InkNote uses on-device speech recognition to transcribe lectures and dictate notes live."
+        }
+      }
+    }
+  ]
+}
