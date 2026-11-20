@@ -15,7 +15,7 @@
         {
           "version": "1.0",
           "date": "2026-11-19",
-          "size": 4222665,
+          "size": 4333166,
           "downloadURL": "https://github.com/usmaan1019/in-releases/releases/download/v1.0/InkNote.ipa",
           "minOSVersion": "18.0",
           "localizedDescription": "Initial release with PencilKit ink, scribble-to-erase, circle-to-lasso, draw-and-hold shapes, multi-tabs, PDF import/export, and hybrid Apple Speech + WhisperKit transcription."
